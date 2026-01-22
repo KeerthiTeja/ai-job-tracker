@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
+import os
 
-API = "http://127.0.0.1:8001"
+API = os.getenv("API","http://127.0.0.1:8001")
 
 st.set_page_config(page_title="AI Job Tracker", layout="wide")
 st.title("AI Job Tracker (Global)")
