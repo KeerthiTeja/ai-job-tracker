@@ -24,3 +24,14 @@ pip install -r requirements.txt
 
 uvicorn app.main:app --reload --port 8001
 streamlit run ui.py
+
+## Screenshots
+
+### Job Tracking 
+![Jobs](docs/ui_jobs.png)
+
+### Resume Tailoring 
+![Tailor](docs/ui_tailor.png)
+
+### Tailoring History
+![History](docs/ui_history.png)
