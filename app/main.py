@@ -15,6 +15,14 @@ app = FastAPI(title="AI Job Tracker")
 def health():
     return {"status": "ok"}
 
+@app.get("/")
+def root():
+    return {
+        "service": "AI Job Tracker API",
+        "status": "ok",
+        "docs": "/docs"
+    }
+
 app.include_router(jobs_router)
 app.include_router(resume_router)
 app.include_router(tailor_runs_router)
