@@ -1,0 +1,10 @@
+
+# virtualenv
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# test artifacts
+test_jobs.db
