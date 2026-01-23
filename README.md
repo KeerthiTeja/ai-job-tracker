@@ -35,3 +35,7 @@ streamlit run ui.py
 
 ### Tailoring History
 ![History](docs/ui_history.png)
+
+## Live Demo
+- API Docs: https://ai-job-tracker-api.onrender.com/docs
+- UI: https://keerthiteja-ai-job-tracker-ui-a7ffd4.streamlit.app/
